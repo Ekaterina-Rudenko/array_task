@@ -11,37 +11,40 @@ import java.util.Arrays;
 
 public class ArrayServiceImpl implements ArrayService {
     public static Logger logger = LogManager.getLogger();
+
     @Override
-    public int findMax(CustomArray customArray){
+    public int findMax(CustomArray customArray) {
         int[] array = customArray.getNumberArray();
         int max = array[0];
-        for(int i =1; i < array.length; i++){
-            if (array[i] > max){
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > max) {
                 max = array[i];
             }
         }
         logger.log(Level.INFO, "The maximum elements is " + max);
         return max;
     }
+
     @Override
-    public int findMin(CustomArray customArray){
+    public int findMin(CustomArray customArray) {
         int[] array = customArray.getNumberArray();
         int min = array[0];
-        for(int i =1; i < array.length; i++){
-            if (array[i] < min){
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] < min) {
                 min = array[i];
             }
         }
         logger.log(Level.INFO, "The minimum elements is " + min);
         return min;
     }
+
     @Override
-    public int findSumOfElements(CustomArray customArray) throws CustomException{
+    public int findSumOfElements(CustomArray customArray) throws CustomException {
         int sum = 0;
         int[] array = customArray.getNumberArray();
-        for(int i = 0; i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             sum += array[i];
-            if(sum > Integer.MAX_VALUE || sum < Integer.MIN_VALUE){
+            if (sum > Integer.MAX_VALUE || sum < Integer.MIN_VALUE) {
                 logger.error("There is integer overflow while counting the sum");
                 throw new CustomException("There is integer overflow while counting the sum");
             }
@@ -49,41 +52,45 @@ public class ArrayServiceImpl implements ArrayService {
         logger.log(Level.INFO, "The sum of elements is " + sum);
         return sum;
     }
+
     @Override
     public int findAverage(CustomArray customArray) throws CustomException {
         int arraySize = customArray.getNumberArray().length;
-        int average = findSumOfElements(customArray)/arraySize;
+        int average = findSumOfElements(customArray) / arraySize;
         return average;
     }
+
     @Override
-    public void swapNegative(CustomArray customArray){
+    public void swapNegative(CustomArray customArray) {
         final int REPLACE = 100;
         int[] array = customArray.getNumberArray();
-        for(int i = 0; i < array.length; i++){
-            if(array[i] < 0){
+        for (int i = 0; i < array.length; i++) {
+            if (array[i] < 0) {
                 array[i] = REPLACE;
             }
         }
         logger.log(Level.INFO, "The array after swapping negative elements to 100 is " + Arrays.toString(array));
     }
+
     @Override
-    public int countPositive(CustomArray customArray){
+    public int countPositive(CustomArray customArray) {
         int[] array = customArray.getNumberArray();
         int counter = 0;
-        for(int x: array){
-            if (x > 0){
+        for (int x : array) {
+            if (x > 0) {
                 counter++;
             }
         }
         logger.log(Level.INFO, "There are " + counter + " positive elements");
         return counter;
     }
+
     @Override
-    public int countNegative(CustomArray customArray){
+    public int countNegative(CustomArray customArray) {
         int[] array = customArray.getNumberArray();
         int counter = 0;
-        for(int x: array){
-            if (x < 0){
+        for (int x : array) {
+            if (x < 0) {
                 counter++;
             }
         }
@@ -91,11 +98,11 @@ public class ArrayServiceImpl implements ArrayService {
         return counter;
     }
 
-  /*  @Override
-    public CustomArray bubbleSort(CustomArray customArray){
+    /*  @Override
+      public CustomArray bubbleSort(CustomArray customArray){
 
-        return sortedArray;
-    }*/
+          return sortedArray;
+      }*/
     @Override
     public CustomArray shellSort(CustomArray customArray) {
         int[] array = customArray.getNumberArray();
@@ -113,12 +120,24 @@ public class ArrayServiceImpl implements ArrayService {
             gap = gap / 2;
         }
         customArray.setNumberArray(array);
-        logger.log(Level.INFO, customArray);
+        logger.log(Level.INFO, "Shell sort for " + customArray);
         return customArray;
     }
 
-    /*@Override
-    public  CustomArray insertionSort(CustomArray customArray){
-        return sortedArray;
-    }*/
+    @Override
+    public CustomArray insertionSort(CustomArray customArray) {
+        int[] array = customArray.getNumberArray();
+        for (int i = 1; i < array.length; i++) {
+            int current = array[i];
+            int j = i;
+            while (j > 0 && array[j - 1] > current) {
+                array[j] = array[j - 1];
+                j--;
+            }
+            array[j] = current;
+        }
+        customArray.setNumberArray(array);
+        logger.log(Level.INFO,"Insertion sort for " + customArray);
+        return customArray;
+    }
 }
