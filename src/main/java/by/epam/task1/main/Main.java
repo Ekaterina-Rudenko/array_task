@@ -38,6 +38,7 @@ public class Main {
             service.countPositive(customArray);
             service.countNegative(customArray);
             service.shellSort(customArray);
+            service.insertionSort(customArray);
         } catch (CustomException e) {
             logger.log(Level.ERROR, e);
         }
