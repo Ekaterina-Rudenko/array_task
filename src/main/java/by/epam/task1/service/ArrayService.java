@@ -1,0 +1,17 @@
+package by.epam.task1.service;
+
+import by.epam.task1.entity.CustomArray;
+import by.epam.task1.exception.CustomException;
+
+public interface ArrayService  {
+    public int findMax(CustomArray customArray);
+    public int findMin(CustomArray customArray);
+    public int findSumOfElements(CustomArray customArray) throws CustomException;
+    public int findAverage(CustomArray customArray) throws CustomException;
+    public void swapNegative(CustomArray customArray);
+    public int countPositive(CustomArray customArray);
+    public int countNegative(CustomArray customArray);
+   /* public CustomArray bubbleSort(CustomArray customArray);
+    public CustomArray insertionSort(CustomArray customArray);*/
+    public CustomArray shellSort(CustomArray customArray);
+}

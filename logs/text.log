@@ -1,0 +1,116 @@
+2021-10-01 08:10:44 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The data source resources\info.txt was not found
+java.io.FileNotFoundException: resources\info.txt (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at by.epam.task1.reader.impl.InfoReaderImpl.readLine(InfoReaderImpl.java:23) [classes/:?]
+	at by.epam.task1.main.Main.main(Main.java:29) [classes/:?]
+2021-10-01 08:10:44 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomException
+2021-10-01 08:12:31 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The data source main\resources\info.txt was not found
+java.io.FileNotFoundException: main\resources\info.txt (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method) ~[?:?]
+	at java.io.FileInputStream.open(FileInputStream.java:211) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:153) ~[?:?]
+	at java.io.FileInputStream.<init>(FileInputStream.java:108) ~[?:?]
+	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
+	at by.epam.task1.reader.impl.InfoReaderImpl.readLine(InfoReaderImpl.java:23) [classes/:?]
+	at by.epam.task1.main.Main.main(Main.java:29) [classes/:?]
+2021-10-01 08:12:31 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomException
+2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:11:32 [main] INFO  by.epam.task1.main.Main - [I@3b6ddd1d
+2021-10-01 09:11:32 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:11:32 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:11:32 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:11:32 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:11:32 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:11:32 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:11:32 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:13:16 [main] INFO  by.epam.task1.main.Main - [I@3b6ddd1d
+2021-10-01 09:13:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:13:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:13:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:13:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:13:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:13:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:13:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:13:56 [main] INFO  by.epam.task1.main.Main - [I@5562c41e
+2021-10-01 09:13:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:13:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:13:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:13:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:13:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:13:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:13:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:14:45 [main] INFO  by.epam.task1.main.Main - [I@5562c41e
+2021-10-01 09:14:45 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:14:45 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:14:45 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:14:45 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:14:45 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:14:45 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:14:45 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:15:01 [main] INFO  by.epam.task1.main.Main - [I@5562c41e
+2021-10-01 09:15:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:15:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:15:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:15:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:15:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:15:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:15:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:15:30 [main] INFO  by.epam.task1.main.Main - [I@5562c41e
+2021-10-01 09:15:30 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:15:30 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:15:30 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:15:30 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:15:30 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:15:30 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:15:30 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:18:50 [main] INFO  by.epam.task1.main.Main - [I@5562c41e
+2021-10-01 09:18:50 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:18:50 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:18:50 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:18:50 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:18:50 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:18:50 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:18:50 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:19:21 [main] INFO  by.epam.task1.main.Main - CustomArray = [[45, -3, 34, 56, 22, 56, -100, 35]]
+2021-10-01 09:19:21 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:19:21 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:19:21 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:19:21 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:19:21 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:19:21 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:19:21 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:19:36 [main] INFO  by.epam.task1.main.Main - CustomArray = [[45, -3, 34, 56, 22, 56, -100, 35]]
+2021-10-01 09:19:36 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:19:36 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:19:36 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:19:36 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:19:36 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:19:36 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:19:36 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:20:31 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-01 09:20:31 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:20:31 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:20:31 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:20:31 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:20:31 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:20:31 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:20:31 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:54:16 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-01 09:54:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-01 09:54:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-01 09:54:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:54:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-01 09:54:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-01 09:54:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-01 09:54:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-01 09:54:16 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - CustomArray = [-100, -3, 22, 34, 35, 45, 56, 56]
