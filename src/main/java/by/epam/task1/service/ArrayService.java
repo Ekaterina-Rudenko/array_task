@@ -11,7 +11,7 @@ public interface ArrayService  {
     public void swapNegative(CustomArray customArray);
     public int countPositive(CustomArray customArray);
     public int countNegative(CustomArray customArray);
-   /* public CustomArray bubbleSort(CustomArray customArray);
-    public CustomArray insertionSort(CustomArray customArray);*/
+   /* public CustomArray bubbleSort(CustomArray customArray);*/
+    public CustomArray insertionSort(CustomArray customArray);
     public CustomArray shellSort(CustomArray customArray);
 }
