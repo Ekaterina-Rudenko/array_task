@@ -7,7 +7,7 @@ java.io.FileNotFoundException: resources\info.txt (Системе не удае�
 	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
 	at by.epam.task1.reader.impl.InfoReaderImpl.readLine(InfoReaderImpl.java:23) [classes/:?]
 	at by.epam.task1.main.Main.main(Main.java:29) [classes/:?]
-2021-10-01 08:10:44 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomException
+2021-10-01 08:10:44 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomArrayException
 2021-10-01 08:12:31 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The data source main\resources\info.txt was not found
 java.io.FileNotFoundException: main\resources\info.txt (Системе не удается найти указанный путь)
 	at java.io.FileInputStream.open0(Native Method) ~[?:?]
@@ -17,7 +17,7 @@ java.io.FileNotFoundException: main\resources\info.txt (Системе не уд
 	at java.io.FileReader.<init>(FileReader.java:60) ~[?:?]
 	at by.epam.task1.reader.impl.InfoReaderImpl.readLine(InfoReaderImpl.java:23) [classes/:?]
 	at by.epam.task1.main.Main.main(Main.java:29) [classes/:?]
-2021-10-01 08:12:31 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomException
+2021-10-01 08:12:31 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomArrayException
 2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
 2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
 2021-10-01 08:21:46 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
