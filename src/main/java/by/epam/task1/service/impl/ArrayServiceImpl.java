@@ -1,7 +1,7 @@
 package by.epam.task1.service.impl;
 
 import by.epam.task1.entity.CustomArray;
-import by.epam.task1.exception.CustomException;
+import by.epam.task1.exception.CustomArrayException;
 import by.epam.task1.service.ArrayService;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
@@ -14,7 +14,7 @@ public class ArrayServiceImpl implements ArrayService {
 
     @Override
     public int findMax(CustomArray customArray) {
-        int[] array = customArray.getNumberArray();
+        int[] array = customArray.getArray();
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
             if (array[i] > max) {
@@ -27,7 +27,7 @@ public class ArrayServiceImpl implements ArrayService {
 
     @Override
     public int findMin(CustomArray customArray) {
-        int[] array = customArray.getNumberArray();
+        int[] array = customArray.getArray();
         int min = array[0];
         for (int i = 1; i < array.length; i++) {
             if (array[i] < min) {
@@ -39,14 +39,14 @@ public class ArrayServiceImpl implements ArrayService {
     }
 
     @Override
-    public int findSumOfElements(CustomArray customArray) throws CustomException {
+    public int findSumOfElements(CustomArray customArray) throws CustomArrayException {
         int sum = 0;
-        int[] array = customArray.getNumberArray();
+        int[] array = customArray.getArray();
         for (int i = 0; i < array.length; i++) {
             sum += array[i];
             if (sum > Integer.MAX_VALUE || sum < Integer.MIN_VALUE) {
                 logger.error("There is integer overflow while counting the sum");
-                throw new CustomException("There is integer overflow while counting the sum");
+                throw new CustomArrayException("There is integer overflow while counting the sum");
             }
         }
         logger.log(Level.INFO, "The sum of elements is " + sum);
@@ -54,16 +54,16 @@ public class ArrayServiceImpl implements ArrayService {
     }
 
     @Override
-    public int findAverage(CustomArray customArray) throws CustomException {
-        int arraySize = customArray.getNumberArray().length;
-        int average = findSumOfElements(customArray) / arraySize;
+    public double findAverage(CustomArray customArray) throws CustomArrayException {
+        int arraySize = customArray.getArray().length;
+        double average = findSumOfElements(customArray) / arraySize;
         return average;
     }
 
     @Override
     public void swapNegative(CustomArray customArray) {
         final int REPLACE = 100;
-        int[] array = customArray.getNumberArray();
+        int[] array = customArray.getArray();
         for (int i = 0; i < array.length; i++) {
             if (array[i] < 0) {
                 array[i] = REPLACE;
@@ -74,7 +74,7 @@ public class ArrayServiceImpl implements ArrayService {
 
     @Override
     public int countPositive(CustomArray customArray) {
-        int[] array = customArray.getNumberArray();
+        int[] array = customArray.getArray();
         int counter = 0;
         for (int x : array) {
             if (x > 0) {
@@ -87,7 +87,7 @@ public class ArrayServiceImpl implements ArrayService {
 
     @Override
     public int countNegative(CustomArray customArray) {
-        int[] array = customArray.getNumberArray();
+        int[] array = customArray.getArray();
         int counter = 0;
         for (int x : array) {
             if (x < 0) {
@@ -98,14 +98,48 @@ public class ArrayServiceImpl implements ArrayService {
         return counter;
     }
 
-    /*  @Override
-      public CustomArray bubbleSort(CustomArray customArray){
-
-          return sortedArray;
-      }*/
     @Override
-    public CustomArray shellSort(CustomArray customArray) {
-        int[] array = customArray.getNumberArray();
+    public int[] quickSort(CustomArray customArray) {
+        int[] array = customArray.getArray();
+        reqursiveQuickSort(array, 0, array.length-1);
+        logger.log(Level.INFO, "Quick sort: " + Arrays.toString(array));
+        return array;
+    }
+    private int[] reqursiveQuickSort(int[] array, int leftBorder, int rightBorder) {
+        int leftMarker = leftBorder;
+        int rightMarker = rightBorder;
+        int pivot = array[(leftMarker + rightMarker) / 2];
+        do {
+            while (array[leftMarker] < pivot) {
+                leftMarker++;
+            }
+            while (array[rightMarker] > pivot) {
+                rightMarker--;
+            }
+            if (leftMarker <= rightMarker) {
+                if (leftMarker < rightMarker) {
+                    int temp = array[leftMarker];
+                    array[leftMarker] = array[rightMarker];
+                    array[rightMarker] = temp;
+                }
+                leftMarker++;
+                rightMarker--;
+            }
+        } while (leftMarker <= rightMarker);
+
+        if (leftMarker < rightBorder) {
+            reqursiveQuickSort(array, leftMarker, rightBorder);
+        }
+        if (leftBorder < rightMarker) {
+            reqursiveQuickSort(array, leftBorder, rightMarker);
+        }
+        return array;
+    }
+
+    @Override
+    public int[] shellSort(CustomArray customArray) {
+
+        int[] array = customArray.getArray();
         int gap = array.length / 2;
         while (gap > 0) {
             for (int i = 0; i < (array.length - gap); i++) {
@@ -119,14 +153,13 @@ public class ArrayServiceImpl implements ArrayService {
             }
             gap = gap / 2;
         }
-        customArray.setNumberArray(array);
-        logger.log(Level.INFO, "Shell sort for " + customArray);
-        return customArray;
+        logger.log(Level.INFO, "Shell sort: " + Arrays.toString(array));
+        return array;
     }
 
     @Override
-    public CustomArray insertionSort(CustomArray customArray) {
-        int[] array = customArray.getNumberArray();
+    public int[] insertionSort(CustomArray customArray) {
+        int[] array = customArray.getArray();
         for (int i = 1; i < array.length; i++) {
             int current = array[i];
             int j = i;
@@ -136,8 +169,7 @@ public class ArrayServiceImpl implements ArrayService {
             }
             array[j] = current;
         }
-        customArray.setNumberArray(array);
-        logger.log(Level.INFO,"Insertion sort for " + customArray);
-        return customArray;
+        logger.log(Level.INFO, "Insertion sort: " + Arrays.toString(array));
+        return array;
     }
 }
