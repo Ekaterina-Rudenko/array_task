@@ -43,12 +43,18 @@ public class ArrayServiceImpl implements ArrayService {
         int sum = 0;
         int[] array = customArray.getArray();
         for (int i = 0; i < array.length; i++) {
-            sum += array[i];
-            if (sum > Integer.MAX_VALUE || sum < Integer.MIN_VALUE) {
-                logger.error("There is integer overflow while counting the sum");
-                throw new CustomArrayException("There is integer overflow while counting the sum");
+            int delta;
+            if (sum >= 0) {
+                delta = Integer.MAX_VALUE - sum;
+            } else {
+                delta = Integer.MIN_VALUE - sum;
             }
-        }
+            if ((delta > 0 && delta > array[i]) || (delta < 0 && delta < array[i])){
+            sum += array[i];
+        } else{
+            logger.error("There is integer overflow while counting the sum of elements of " + customArray);
+            throw new CustomArrayException("There is integer overflow while counting the sum of elements of " + customArray);
+        }}
         logger.log(Level.INFO, "The sum of elements is " + sum);
         return sum;
     }
@@ -56,17 +62,18 @@ public class ArrayServiceImpl implements ArrayService {
     @Override
     public double findAverage(CustomArray customArray) throws CustomArrayException {
         int arraySize = customArray.getArray().length;
-        double average = findSumOfElements(customArray) / arraySize;
+        double average = (double)findSumOfElements(customArray) / arraySize;
+        logger.log(Level.INFO, "The average of elements is " + average);
         return average;
     }
 
     @Override
     public void swapNegative(CustomArray customArray) {
-        final int REPLACE = 100;
+        final int REPLACE_NEGATIVE_VALUE = 9999;
         int[] array = customArray.getArray();
         for (int i = 0; i < array.length; i++) {
             if (array[i] < 0) {
-                array[i] = REPLACE;
+                array[i] = REPLACE_NEGATIVE_VALUE;
             }
         }
         logger.log(Level.INFO, "The array after swapping negative elements to 100 is " + Arrays.toString(array));
