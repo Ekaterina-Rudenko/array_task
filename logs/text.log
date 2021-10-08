@@ -2877,3 +2877,22 @@ java.lang.NumberFormatException: For input string: "2 -5 4 3 8"
 2021-10-08 09:44:02 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [45, 999, 34, 56, 22, 56, 999, 35]
 2021-10-08 09:44:02 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [-100, -3, 22, 34, 35, 45, 56, 56]
 2021-10-08 09:49:45 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object will not be created
+2021-10-08 09:57:57 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object will not be created
+2021-10-08 10:13:30 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is 8
+2021-10-08 10:13:53 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is 8
+2021-10-08 10:21:26 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -222
+2021-10-08 10:23:48 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 878
+2021-10-08 10:23:48 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -222
+2021-10-08 10:24:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 878
+2021-10-08 10:24:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1413
+2021-10-08 10:24:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 176.625
+2021-10-08 10:25:09 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1413
+2021-10-08 10:25:09 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 176.625
+2021-10-08 10:26:31 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1413
+2021-10-08 10:28:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1413
+2021-10-08 10:28:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 176.625
+2021-10-08 10:28:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 878
+2021-10-08 10:28:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -222
+2021-10-08 10:28:56 [main] ERROR epam.task1.service.impl.ArrayServiceImpl - There is integer overflow while counting the sum of elements of CustomArray = [5, 2147483646, 1]
+2021-10-08 10:28:56 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1413
+2021-10-08 10:31:48 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
