@@ -1,0 +1,86 @@
+2021-10-06 20:00:42 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-06 20:00:42 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-06 20:00:42 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 20:00:42 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 20:00:42 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 20:01:43 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 20:01:43 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 20:36:37 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array null is empty, new object will not be created
+2021-10-06 20:36:37 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomArrayException: The array is empty, new object will not be created
+2021-10-06 23:30:04 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The minimum by IntStream is OptionalInt[-100]
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The maximum by IntStream is OptionalInt[56]
+2021-10-06 23:30:04 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The sum by IntStream is 145
+2021-10-06 23:33:41 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The minimum by IntStream is OptionalInt[-100]
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The maximum by IntStream is OptionalInt[56]
+2021-10-06 23:33:41 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The sum by IntStream is 145
+2021-10-06 23:34:18 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The minimum by IntStream is OptionalInt[-100]
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The maximum by IntStream is OptionalInt[56]
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The sum by IntStream is 145
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The average by IntStream is OptionalDouble[18.125]
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The number of positive elements by IntStream is 6
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The number of negative elements by IntStream is 2
+2021-10-06 23:34:18 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The swapped array by IntStream is [45, 999, 34, 56, 22, 56, 999, 35]
+2021-10-06 23:36:27 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 100, 34, 56, 22, 56, 100, 35]
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The minimum by IntStream is OptionalInt[-100]
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The maximum by IntStream is OptionalInt[56]
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The sum by IntStream is 41000000
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The average by IntStream is OptionalDouble[2.05E7]
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The number of positive elements by IntStream is 2
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The number of negative elements by IntStream is 0
+2021-10-06 23:36:27 [main] INFO  epam.task1.service.impl.ArrayServiceImplIntStream - The swapped array by IntStream is [1000000, 40000000]
+2021-10-06 23:36:55 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-06 23:36:55 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-06 23:36:55 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-06 23:36:55 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
