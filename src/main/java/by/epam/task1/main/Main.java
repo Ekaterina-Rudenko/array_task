@@ -10,12 +10,13 @@ import by.epam.task1.parser.impl.ArrayParserImpl;
 import by.epam.task1.reader.InfoReader;
 import by.epam.task1.reader.impl.InfoReaderImpl;
 import by.epam.task1.service.ArrayService;
-import by.epam.task1.service.ArrayServiceIntStream;
 import by.epam.task1.service.impl.ArrayServiceImpl;
-import by.epam.task1.service.impl.ArrayServiceImplIntStream;
+import by.epam.task1.service.impl.ArrayServiceIntStreamImpl;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.List;
 
 public class Main {
     static Logger logger = LogManager.getLogger();
@@ -25,12 +26,12 @@ public class Main {
         ArrayParser parser = new ArrayParserImpl();
         ArrayCreator creator = new ArrayCreatorImpl();
         ArrayService service = new ArrayServiceImpl();
-        ArrayServiceIntStream serviceIntStream = new ArrayServiceImplIntStream();
-        String fileName = "data\\info.txt";
+        by.epam.task1.service.ArrayServiceIntStream serviceIntStream = new ArrayServiceIntStreamImpl();
+        String fileName = "data/info.txt";
 
-        try {
+        try{
             String correctLine = reader.readLine(fileName);
-            int[] numberArray = parser.parseStringToIntegerArray(correctLine);
+            int[] numberArray = parser.parseToIntegerArray(correctLine);
             CustomArray customArray = creator.createCustomArray(numberArray);
             logger.log(Level.INFO, customArray);
             service.findMax(customArray);
@@ -45,11 +46,13 @@ public class Main {
             service.quickSort(customArray);
             serviceIntStream.findMinIntStream(customArray);
             serviceIntStream.findMaxIntStream(customArray);
+
             serviceIntStream.findSumIntStream(customArray);
             serviceIntStream.findAverageIntStream(customArray);
             serviceIntStream.countPositiveIntStream(customArray);
             serviceIntStream.countNegativeIntStream(customArray);
             serviceIntStream.swapNegativeIntStream(customArray);
+            serviceIntStream.sortCustomArrayIntStream(customArray);
 
         } catch (CustomArrayException e) {
             logger.log(Level.ERROR, e);
