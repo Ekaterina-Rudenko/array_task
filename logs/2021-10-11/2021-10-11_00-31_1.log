@@ -1,0 +1,93 @@
+2021-10-10 23:11:25 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 18.125
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 9999, 34, 56, 22, 56, 9999, 35]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The minimum by IntStream is OptionalInt[-100]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The maximum by IntStream is OptionalInt[56]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sum by IntStream is 145
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The average by IntStream is OptionalDouble[18.125]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of positive elements by IntStream is 6
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of negative elements by IntStream is 2
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [45, 999, 34, 56, 22, 56, 999, 35]
+2021-10-10 23:11:25 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 23:11:55 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source testdata/empty.txtis a directory or file is empty
+2021-10-10 23:11:55 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 23:12:40 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String Optional[2 -5 4 3 8] cannot be parsed
+2021-10-10 23:12:40 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String Optional.empty cannot be parsed
+2021-10-10 23:12:40 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String Optional[2.3, 4.5, 6.7] cannot be parsed
+2021-10-10 23:26:55 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 23:28:31 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 23:30:24 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String Optional.empty cannot be parsed
+2021-10-10 23:30:24 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomArrayException: The String Optional.empty cannot be parsed
+2021-10-10 23:32:02 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 23:34:29 [main] INFO  by.epam.task1.main.Main - CustomArray = [456, 785, 99, -150, 333, 56, 56, 12, -133]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 785
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -150
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1514
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1514
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 168.22222222222223
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [456, 785, 99, 9999, 333, 56, 56, 12, 9999]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 7 positive elements
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-150, -133, 56, 56, 12, 99, 333, 456, 785]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-150, -133, 12, 56, 56, 99, 333, 456, 785]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-150, -133, 12, 56, 56, 99, 333, 456, 785]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The minimum by IntStream is OptionalInt[-150]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The maximum by IntStream is OptionalInt[785]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sum by IntStream is 1514
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The average by IntStream is OptionalDouble[168.22222222222223]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of positive elements by IntStream is 7
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of negative elements by IntStream is 2
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [456, 785, 99, 999, 333, 56, 56, 12, 999]
+2021-10-10 23:34:29 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [-150, -133, 12, 56, 56, 99, 333, 456, 785]
+2021-10-10 23:46:22 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 23:49:17 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 23:51:16 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/ was not found
+2021-10-10 23:51:54 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/info was not found
+2021-10-10 23:52:18 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/ was not found
+2021-10-10 23:54:22 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 23:55:33 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-11 00:01:21 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-11 00:01:32 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String Optional[2 -5 4 3 8] cannot be parsed
+2021-10-11 00:01:32 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String Optional.empty cannot be parsed
+2021-10-11 00:01:32 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String Optional[2.3, 4.5, 6.7] cannot be parsed
+2021-10-11 00:01:44 [main] INFO  by.epam.task1.main.Main - CustomArray = [456, 785, 99, -150, 333, 56, 56, 12, -133]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 785
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -150
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1514
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1514
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 168.22222222222223
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [456, 785, 99, 9999, 333, 56, 56, 12, 9999]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 7 positive elements
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-150, -133, 56, 56, 12, 99, 333, 456, 785]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-150, -133, 12, 56, 56, 99, 333, 456, 785]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-150, -133, 12, 56, 56, 99, 333, 456, 785]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The minimum by IntStream is OptionalInt[-150]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The maximum by IntStream is OptionalInt[785]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sum by IntStream is 1514
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The average by IntStream is OptionalDouble[168.22222222222223]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of positive elements by IntStream is 7
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of negative elements by IntStream is 2
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [456, 785, 99, 999, 333, 56, 56, 12, 999]
+2021-10-11 00:01:44 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [-150, -133, 12, 56, 56, 99, 333, 456, 785]
+2021-10-11 00:14:00 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - Reading of data/info.txt is failed or interrupted
+java.nio.file.NoSuchFileException: data\info.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+	at java.nio.file.Files.lines(Files.java:4104) ~[?:?]
+	at java.nio.file.Files.lines(Files.java:4196) ~[?:?]
+	at by.epam.task1.reader.impl.InfoReaderImpl.readLine(InfoReaderImpl.java:41) [classes/:?]
+	at by.epam.task1.main.Main.main(Main.java:27) [classes/:?]
