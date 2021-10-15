@@ -1,7 +1,8 @@
 package by.epam.task1.parser;
 
-import by.epam.task1.exception.CustomArrayException;
+import java.util.List;
+import java.util.Optional;
 
 public interface ArrayParser {
-    int[] parseToIntegerArray(String stringToParse) throws CustomArrayException;
+    List<Integer> parseStringToIntegerList(Optional<String> stringToParse);
 }
