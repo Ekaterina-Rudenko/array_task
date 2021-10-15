@@ -7,16 +7,22 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.List;
+
 public class ArrayCreatorImpl implements ArrayCreator {
     static final Logger logger = LogManager.getLogger();
 
     @Override
-    public CustomArray createCustomArray(int[] numberArray) throws CustomArrayException {
-        if (numberArray != null) {
-            return new CustomArray(numberArray);
-        } else {
-            logger.log(Level.ERROR, "The argument array is empty, new object will not be created");
-            throw new CustomArrayException("The array is empty, new object will not be created");
+    public CustomArray createCustomArray(List<Integer> numberList) throws CustomArrayException {
+        if (numberList == null || numberList.isEmpty()) {
+            logger.log(Level.ERROR, "The number list is empty, new object can't be created");
+            throw new CustomArrayException("The number list is empty, new object can't be created");
         }
+        int[] numberArray = new int[numberList.size()];
+        for (int i = 0; i < numberArray.length; i++) {
+            numberArray[i] = numberList.get(i);
+        }
+        CustomArray customArray = new CustomArray(numberArray);
+        return customArray;
     }
 }
