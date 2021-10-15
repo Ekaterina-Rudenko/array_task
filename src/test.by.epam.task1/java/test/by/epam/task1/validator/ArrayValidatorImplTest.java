@@ -17,30 +17,32 @@ public class ArrayValidatorImplTest {
 
     @Test
     public void validateStringTest() {
-        boolean actual = validator.isValidString("12, -6, 59, 37");
+        boolean actual = validator.validateString("12, -6, 59, 37");
         assertEquals(actual, true);
     }
 
     @Test
     public void validateStringTestNegative() {
-        boolean actual = validator.isValidString("45,dfr,-6,54,32,");
+        boolean actual = validator.validateString("45,dfr,-6,54,32,");
         assertNotEquals(actual, true);
     }
 
     @Test
     public void validateStringWithoutSpacesTest() {
-        boolean actual = validator.isValidString("45,-6,54,32");
+        boolean actual = validator.validateString("45,-6,54,32");
         assertEquals(actual, true);
     }
+
     @Test
     public void validateStringNegativeWithoutCommaTest() {
-        boolean actual = validator.isValidString("45 -6 54 32");
+        boolean actual = validator.validateString("45 -6 54 32");
         assertNotEquals(actual, true);
     }
+
     @Test
-    public void validateStringEmptyTest(){
-        boolean actual = validator.isValidString("");
-        assertNotEquals(actual, true);
+    public void validateStringEmptyTest() {
+        boolean actual = validator.validateString(null);
+        assertEquals(actual, false);
     }
 
 }
