@@ -1,0 +1,92 @@
+2021-10-11 00:31:19 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object will not be created
+2021-10-11 00:32:35 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object will not be created
+2021-10-11 00:33:26 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object will not be created
+2021-10-11 00:36:50 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object will not be created
+2021-10-11 00:40:30 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - Reading of data/info.txt is failed or interrupted
+java.nio.file.NoSuchFileException: data\info.txt
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:292) ~[?:?]
+	at java.nio.channels.FileChannel.open(FileChannel.java:345) ~[?:?]
+	at java.nio.file.Files.lines(Files.java:4104) ~[?:?]
+	at java.nio.file.Files.lines(Files.java:4196) ~[?:?]
+	at by.epam.task1.reader.impl.InfoReaderImpl.readLine(InfoReaderImpl.java:41) [classes/:?]
+	at by.epam.task1.main.Main.main(Main.java:27) [classes/:?]
+2021-10-11 00:42:51 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-11 00:44:58 [main] INFO  by.epam.task1.main.Main - CustomArray = [0, 0, 0, 0, 0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 0
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is 0
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 0
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 0
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 0.0
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [0, 0, 0, 0, 0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 0 positive elements
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 0 negative elements
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [0, 0, 0, 0, 0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [0, 0, 0, 0, 0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [0, 0, 0, 0, 0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The minimum by IntStream is OptionalInt[0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The maximum by IntStream is OptionalInt[0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sum by IntStream is 0
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The average by IntStream is OptionalDouble[0.0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of positive elements by IntStream is 0
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of negative elements by IntStream is 0
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [0, 0, 0, 0, 0]
+2021-10-11 00:44:58 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [0, 0, 0, 0, 0]
+2021-10-11 00:46:02 [main] INFO  by.epam.task1.main.Main - CustomArray = []
+2021-10-11 00:52:17 [main] INFO  by.epam.task1.main.Main - CustomArray = []
+2021-10-11 01:03:21 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 01:09:59 [main] INFO  by.epam.task1.main.Main - CustomArray = []
+2021-10-11 03:40:40 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:41:25 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:43:58 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:45:31 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:46:25 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:47:15 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:47:39 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:47:44 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:52:25 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-11 03:54:47 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The argument array is empty, new object can't be created
+2021-10-11 03:54:47 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomArrayException: The argument array is empty, new object can't be created
+2021-10-11 03:56:06 [main] INFO  by.epam.task1.main.Main - CustomArray = [0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 0
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is 0
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 0
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 0
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 0.0
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 0 positive elements
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 0 negative elements
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The minimum by IntStream is OptionalInt[0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The maximum by IntStream is OptionalInt[0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sum by IntStream is 0
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The average by IntStream is OptionalDouble[0.0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of positive elements by IntStream is 0
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of negative elements by IntStream is 0
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [0]
+2021-10-11 03:56:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [0]
+2021-10-11 03:56:46 [main] ERROR epam.task1.creator.impl.ArrayCreatorImpl - The number list is empty, new object can't be created
+2021-10-11 03:56:46 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomArrayException: The number list is empty, new object can't be created
+2021-10-11 03:57:59 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 1 negative elements
+2021-10-11 03:57:59 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 7 positive elements
+2021-10-11 03:57:59 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1613
+2021-10-11 03:57:59 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 201.625
+2021-10-11 03:57:59 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 878
+2021-10-11 03:57:59 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -222
+2021-10-11 03:57:59 [main] ERROR epam.task1.service.impl.ArrayServiceImpl - There is integer overflow while counting the sum of elements of CustomArray = [5, 2147483646, 1]
+2021-10-11 03:57:59 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1613
+2021-10-11 03:58:47 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -222
+2021-10-11 03:58:55 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 878
+2021-10-11 03:59:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1613
+2021-10-11 03:59:01 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 201.625
+2021-10-11 03:59:41 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -222
+2021-10-11 03:59:47 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 878
+2021-10-11 03:59:52 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1438
+2021-10-11 03:59:52 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 159.77777777777777
+2021-10-11 04:00:07 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 1437
+2021-10-11 04:00:07 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 159.66666666666666
