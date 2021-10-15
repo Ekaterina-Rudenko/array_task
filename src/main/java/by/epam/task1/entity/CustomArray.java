@@ -20,6 +20,13 @@ public class CustomArray {
             this.array[i] = array[i];
         }
     }
+    public CustomArray(int size) throws CustomArrayException {
+        if(size < 0){
+            logger.log(Level.ERROR, size + " is incorrect array size");
+            throw new CustomArrayException(size + " is incorrect array size");
+
+        }
+    }
 
     public int[] getArray() {
         return Arrays.copyOf(array, array.length);
@@ -31,6 +38,7 @@ public class CustomArray {
 
     public int getArraySize() {
         return array.length;
+
     }
 
     public int getElement(int index) throws CustomArrayException {
@@ -70,6 +78,6 @@ public class CustomArray {
     }
 
     private boolean checkIndex(int i) {
-        return (i > 0 && i < array.length);
+        return (i >= 0 && i < array.length);
     }
 }
