@@ -1,0 +1,81 @@
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The minimum by IntStream is OptionalInt[-100]
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The maximum by IntStream is OptionalInt[56]
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sum by IntStream is 145
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The average by IntStream is OptionalDouble[18.125]
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of positive elements by IntStream is 6
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of negative elements by IntStream is 2
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [45, 999, 34, 56, 22, 56, 999, 35]
+2021-10-10 14:38:26 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 14:42:18 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - java.nio.file.NoSuchFileException: data\info.txt
+2021-10-10 14:42:18 [main] ERROR by.epam.task1.main.Main - by.epam.task1.exception.CustomArrayException: data\info.txt
+2021-10-10 14:47:43 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/empty.txt is empty or does not contain valid lines
+2021-10-10 14:47:43 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 14:47:43 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/wrong.txt is empty or does not contain valid lines
+2021-10-10 14:48:33 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 18.125
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 9999, 34, 56, 22, 56, 9999, 35]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The minimum by IntStream is OptionalInt[-100]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The maximum by IntStream is OptionalInt[56]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sum by IntStream is 145
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The average by IntStream is OptionalDouble[18.125]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of positive elements by IntStream is 6
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of negative elements by IntStream is 2
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [45, 999, 34, 56, 22, 56, 999, 35]
+2021-10-10 14:48:33 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 15:15:20 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/empty.txt is empty or does not contain valid lines
+2021-10-10 15:39:47 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String null cannot be parsed
+2021-10-10 15:39:47 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String 2.3, 4.5, 6.7 cannot be parsed
+2021-10-10 15:39:47 [main] ERROR epam.task1.parser.impl.ArrayParserImpl - The String 2 -5 4 3 8 cannot be parsed
+2021-10-10 16:00:27 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 16:03:33 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/empty.txt is empty or does not contain valid lines
+2021-10-10 16:04:35 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/empty.txt is empty or does not contain valid lines
+2021-10-10 16:05:04 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/empty.txt is empty or does not contain valid lines
+2021-10-10 16:05:52 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/wrong.txt is empty or does not contain valid lines
+2021-10-10 16:06:27 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/wrong.txt is empty or does not contain valid lines
+2021-10-10 16:14:09 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/wrong.txt is empty or does not contain valid lines
+2021-10-10 16:14:22 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source testdata/empty.txt was not found
+2021-10-10 16:18:25 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source testdata/empty.txt was not found
+2021-10-10 16:18:25 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 16:18:25 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/wrong.txt is empty or does not contain valid lines
+2021-10-10 16:19:07 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source testdata/empty.txt was not found
+2021-10-10 16:19:17 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source testdata/empty.txt was not found
+2021-10-10 16:19:17 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 16:19:17 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/wrong.txt is empty or does not contain valid lines
+2021-10-10 16:21:13 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source testdata/empty.txt was not found
+2021-10-10 16:21:13 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The source tesdata/noFile.txt was not found
+2021-10-10 16:21:13 [main] ERROR epam.task1.reader.impl.InfoReaderImpl - The file testdata/wrong.txt is empty or does not contain valid lines
+2021-10-10 21:53:06 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The maximum elements is 56
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The minimum elements is -100
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The sum of elements is 145
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The average of elements is 18.125
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - The array after swapping negative elements to 100 is [45, 9999, 34, 56, 22, 56, 9999, 35]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 6 positive elements
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - There are 2 negative elements
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Shell sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Insertion sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceImpl - Quick sort: [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The minimum by IntStream is OptionalInt[-100]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The maximum by IntStream is OptionalInt[56]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sum by IntStream is 145
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The average by IntStream is OptionalDouble[18.125]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of positive elements by IntStream is 6
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The number of negative elements by IntStream is 2
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The swapped array by IntStream is [45, 999, 34, 56, 22, 56, 999, 35]
+2021-10-10 21:53:06 [main] INFO  epam.task1.service.impl.ArrayServiceIntStreamImpl - The sorted array by IntStream is [-100, -3, 22, 34, 35, 45, 56, 56]
+2021-10-10 22:00:58 [main] INFO  by.epam.task1.main.Main - CustomArray = [45, -3, 34, 56, 22, 56, -100, 35]
