@@ -9,49 +9,38 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.NoSuchElementException;
-import java.util.Scanner;
-import java.util.stream.Stream;
+import java.util.Optional;
+
 
 public class InfoReaderImpl implements InfoReader {
     static Logger logger = LogManager.getLogger();
 
-    @Override
-    public String readLine(String path) throws CustomArrayException {
-        ClassLoader loader = getClass().getClassLoader();
-        URL resource = loader.getResource(path);
-        if(resource == null){
-            logger.log(Level.ERROR, "The source " + path + " was not found");
-            throw new CustomArrayException("The source " + path + " was not found");
-        }
-        String filePath = new File(resource.getFile()).getAbsolutePath();
+    public Optional<String> readLine(String filePath) throws CustomArrayException {
         ArrayValidator validator = new ArrayValidatorImpl();
-
-        String currentLine = "";
-
-        try (Scanner scanner = new Scanner(new FileReader(filePath))) {
-            boolean isCorrect = false;
-            while(scanner.hasNextLine() && !isCorrect){
-                currentLine = scanner.nextLine();
-                if(validator.isValidString(currentLine)){
-                    isCorrect = true;
-                }
-            }
-            if (!isCorrect || currentLine == null) {
-                logger.log(Level.ERROR, "The file " + path + " is empty or does not contain valid lines");
-                throw new CustomArrayException("The file " + path + " is empty or does not contain valid lines");
-            }
-        } catch (IOException e) {
-            logger.log(Level.ERROR, "Reading of " + path + " is failed or interrupted", e);
-            throw new CustomArrayException("Reading of " + path + " is failed or interrupted", e);
+        URL resource = getClass().getClassLoader().getResource(filePath);
+        if (resource == null) {
+            logger.log(Level.ERROR, "The source " + filePath + " was not found");
+            throw new CustomArrayException("The source " + filePath + " was not found");
         }
-        return currentLine;
+        File file = new File(resource.getFile());
+        if (file.isDirectory()) {
+            logger.log(Level.ERROR, "The source " + filePath + "is a directory");
+            throw new CustomArrayException("The source " + filePath + "is a directory");
+        }
+        try {
+            Path path = Path.of(file.getPath());
+            Optional<String> firstValidLine = Files.lines(path)
+                    .filter(validator::validateString)
+                    .findFirst();
+            return firstValidLine;
+        } catch (IOException e) {
+            logger.log(Level.ERROR, "Reading of " + filePath + " is failed or interrupted", e);
+            throw new CustomArrayException("Reading of " + filePath + " is failed or interrupted", e);
+        }
     }
 }
 
